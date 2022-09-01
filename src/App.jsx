@@ -14,16 +14,15 @@ const wrapper = {
 const App = () => {
   return (
     <div style={wrapper}>
-    <ImgContextProvider>
-      <TextContextProvider>
-        <HolidayContextProvider>
-          <Header />
-          <Card />
-          <Footer />
-        </HolidayContextProvider>
-      </TextContextProvider>
-    </ImgContextProvider>
-    
+      <HolidayContextProvider>
+        <ImgContextProvider>
+          <TextContextProvider>
+              <Header />
+              <Card />
+              <Footer />
+          </TextContextProvider>
+        </ImgContextProvider>
+      </HolidayContextProvider>
     </div>
   );
 }

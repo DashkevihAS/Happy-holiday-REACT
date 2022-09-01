@@ -5,7 +5,7 @@ import style from './Felicitation.module.css';
 
 const Felicitation = () => {
   const {text} = useContext(textContext);
-
+  console.log(text);
   return (
     <p className={style.felicitation}>
       {text}
