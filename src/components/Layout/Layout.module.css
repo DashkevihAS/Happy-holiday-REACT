@@ -1,11 +1,17 @@
 .button {
     display: block;
-    margin: 10px auto;
     font-size: 18px;
     background: #00C78B;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 20px;
+    line-height: 0px;
 }
 
+.wrap {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

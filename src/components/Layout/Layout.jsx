@@ -16,13 +16,16 @@ const Layout = () => {
     <div style={wrapper}>
       <Header />
       <Outlet />
-      {idText && idImg &&
-          <Link
-            to={`singleCard/${idText}/${idImg}`}
-            className={style.button}
-            >Поделиться картинкой
-          </Link>
-      }
+      <div className={style.wrap}>
+        {idText && idImg &&
+            
+              <Link
+                to={`singleCard/${idText}/${idImg}`}
+                className={style.button}
+                >Поделиться картинкой
+              </Link>
+        }
+      </div>
       <Footer />
     </div>
   );
