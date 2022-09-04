@@ -1,2 +1,2 @@
-export const URI_API = 'http://localhost:3000/api';
+export const URI_API = 'https://boiling-bloom-blackbird.glitch.me/api';
 

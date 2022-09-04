@@ -1,4 +1,4 @@
-import Layout from '../Layout/Layout';
+import Container from '../Container/Container';
 import style from './footer.module.css'
 import { ReactComponent as VKIcon} from '../../img/vk.svg';
 import { ReactComponent as TGIcon} from '../../img/tg.svg';
@@ -7,7 +7,7 @@ import { ReactComponent as Stumblecon} from '../../img/stumbleupon.svg';
 
 const Footer = () => (
   <footer className={style.footer}>
-    <Layout >
+    <Container >
       <div className={style.wrapper} >
         <div className={style.contacts}>
           <p>Design: <a href='https://t.me/Mrshmallowww'>Anastasia Ilina</a></p>
@@ -38,7 +38,7 @@ const Footer = () => (
           </li>
         </ul>
       </div>
-    </Layout>
+    </Container>
   </footer>
 )
 

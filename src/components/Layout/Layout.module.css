@@ -1,10 +1,11 @@
-.container {
-  max-width: 1300px;
-  padding: 0 20px;
-  margin: 0 auto;
+.button {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    background: #00C78B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
-@media (max-width: 1024px) {
-  .container {
-      padding: 0 10px;
-  }
-}
+
